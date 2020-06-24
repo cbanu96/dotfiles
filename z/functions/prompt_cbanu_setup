@@ -1,0 +1,14 @@
+prompt_cbanu_help () {
+  cat <<'EOF'
+
+  No help.
+
+EOF
+}
+
+prompt_cbanu_setup () {
+  PROMPT='%(?..%B%F{red}%?%f%b )%f%B%F{76}%1~%f%b %# '
+  RPROMPT='%F{blue}${vcs_info_msg_0_}'
+}
+
+prompt_cbanu_setup "$@"

@@ -1,0 +1,9 @@
+alias vi=nvim
+alias vim=nvim
+alias ls='gls --color'
+alias ll='ls -lFa'
+alias cdg='cd $(git root)'
+alias cddf='cd ${DOTFILES_REPOSITORY_ROOT}'
+alias cdw='cd ${HOME}/Workspace'
+alias szrc='source $HOME/.zshrc'
+alias tmux='tmux -2'

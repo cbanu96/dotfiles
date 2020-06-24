@@ -1,0 +1,3 @@
+for ZFILE in "${DOTFILES_REPOSITORY_ROOT}"/z/zshrc.d/*.zsh(N); do
+  source "${ZFILE}"
+done

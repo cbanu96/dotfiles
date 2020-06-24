@@ -1,0 +1,8 @@
+[include]
+  path = gitconfig-secret
+
+[alias]
+	st = status
+	ci = commit
+	root = rev-parse --show-toplevel
+	dc = diff --cached
