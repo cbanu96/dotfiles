@@ -11,7 +11,7 @@ support.
 
 ## zsh
 
-Zsh configuration inspired by reading through #[mastering
+Zsh configuration inspired by reading through [mastering
 zsh](https://github.com/rothgar/mastering-zsh).
 
 ## tmux
