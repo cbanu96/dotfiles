@@ -23,3 +23,5 @@ export LESS_TERMCAP_ZW="$(tput rsupm)"
 
 # ripgrep with [--files] filters out .gitignored files.
 export FZF_DEFAULT_COMMAND='rg --files'
+
+export PATH="$HOME/.local/bin:$PATH"
